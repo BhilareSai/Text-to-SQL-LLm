@@ -1,0 +1,13 @@
+prefix=/Users/sai/WorkSpace/Learning Repo/ML/Text-to-SQL-LLm/venv
+exec_prefix=/Users/sai/WorkSpace/Learning Repo/ML/Text-to-SQL-LLm/venv
+libdir=/Users/sai/WorkSpace/Learning Repo/ML/Text-to-SQL-LLm/venv/lib
+sharedlibdir=/Users/sai/WorkSpace/Learning Repo/ML/Text-to-SQL-LLm/venv/lib
+includedir=/Users/sai/WorkSpace/Learning Repo/ML/Text-to-SQL-LLm/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
